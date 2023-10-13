@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+    background-color: navy
+  }
+  
+  header {
+    text-align: center;
+    background-color: white;
+  }
+
+  /*h1 {
+    font-size: 36px;
+    margin: 0;
+  }*/
+
+  .startup {
+    margin-left: 200px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .signup-section {
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    height: 400px; /* Increased the height of the box top and bottom */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* New CSS */
+
+  .signin-button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .twitter-button {
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50px; /* Changed to oval shape */
+  }
